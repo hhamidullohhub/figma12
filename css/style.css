@@ -32,3 +32,15 @@ nav .container {
 .link {
     margin: 0 15px; 
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover {
+    display: block;
+}
+
+.dropdown_list {
+    position: absolute;
+}
