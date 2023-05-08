@@ -19,11 +19,6 @@ ul,li {
     margin: 0 auto;
 }
 
-.item-ul {
-    display: flex;
-    justify-content: space-around;
-}
-
 nav .container {
     display: flex;
     justify-content: space-between;
@@ -32,22 +27,8 @@ nav .container {
 
 .list {
     display: flex;
-    align-items: center;
 }
 
 .link {
-    margin: 0 15px;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-list {
-    position: absolute;
-    display: none;
-}
-
-.dropdown:hover .dropdown-list {
-    display: block;
+    margin: 0 15px; 
 }
