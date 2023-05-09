@@ -129,6 +129,7 @@ nav .container {
 .video-demos {
     display: flex;
     color: blue;
+    align-items: center;
 }
 
 .img-demos {
