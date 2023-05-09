@@ -130,6 +130,7 @@ nav .container {
     display: flex;
     color: blue;
     align-items: center;
+    margin-left: 10px;
 }
 
 .img-demos {
@@ -151,4 +152,5 @@ nav .container {
     border: 2px solid #C31A12;
     padding: 10px 15px;
     border-radius: 8px;
+    margin-left: 20px;
 }
