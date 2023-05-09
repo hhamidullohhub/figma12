@@ -18,3 +18,62 @@ ul,li {
     width: 100%;
     margin: 0 auto;
 }
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item {
+    display: flex;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_item {
+    position: absolute;
+    display: none;
+    border: 2px solid green;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.dropdown:hover .dropdown_item {
+    display: block;
+}
+
+.drop_link a{
+    position: relative;
+}
+
+.drop_item {
+    margin-top: -15px;
+    position: absolute;
+    display: none;
+    margin-left: -80px;
+    border: 2px solid red;
+    padding: 5px 10px 10px 15px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 8px;
+}
+
+.drop_link {
+    color: black;
+}
+
+.drop_item .drop_list {
+    text-align: center;
+}
+
+.drop:hover .drop_item {
+    display: block;
+}
