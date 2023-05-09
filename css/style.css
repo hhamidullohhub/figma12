@@ -150,7 +150,8 @@ nav .container {
 .redesigned-all .demos_button {
     background-color: #F0544C;
     border: 2px solid #C31A12;
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 8px;
     margin-left: 20px;
+    color: white;
 }
