@@ -38,6 +38,7 @@ nav .container {
 
 .item {
     display: flex;
+    align-items: center;
 }
 
 .link {
@@ -87,6 +88,14 @@ nav .container {
 .link-get {
     background-color: #F04037;
     border: 2px solid #C31A12;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.link-get:hover {
+    color: rgb(69, 66, 66);
+    background-color: rgb(211, 68, 68);
 }
 
 .drop_item {
