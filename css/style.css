@@ -18,3 +18,25 @@ ul,li {
     width: 100%;
     margin: 0 auto;
 }
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.dropdown-list {
+    position: relative;
+}
+
+.dropdown-item {
+    position: absolute;
+}
