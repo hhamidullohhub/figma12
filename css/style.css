@@ -148,4 +148,6 @@ nav .container {
 .redesigned-all .demos_button {
     background-color: #F0544C;
     border: 2px solid #C31A12;
+    padding: 10px 15px;
+    border-radius: 8px;
 }
