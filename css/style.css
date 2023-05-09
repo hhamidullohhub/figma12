@@ -143,7 +143,7 @@ nav .container {
 
 .video-demos {
     display: flex;
-    color: blue;
+    color: #5454D4;
     align-items: center;
 }
 
@@ -191,4 +191,15 @@ nav .container {
     width: 600px;
     height: 2px;
     margin-left: 30px;
+}
+
+.desktop-logo {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.desktop-logo img {
+    width: 100px;
 }
