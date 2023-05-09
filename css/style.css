@@ -24,7 +24,9 @@ body {
 }
 
 nav {
-    background-color: #F2F2F2;;
+    margin-top: 50px;
+    padding-top: 5px;
+    background-color: #F2F2F2;
 }
 
 nav .container {
@@ -74,7 +76,7 @@ nav .container {
     position: relative;
 }
 
-.link:hover {
+.dropdown_link:hover {
     color: blue;
 }
 
@@ -119,6 +121,9 @@ nav .container {
 
 .all-demos {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
 }
 
 .video-demos {
@@ -127,9 +132,19 @@ nav .container {
 }
 
 .img-demos {
-    width: 500px;
+    width: 400px;
 }
 
 .redesigned-all h1 {
-    font-size: 80px;
+    font-size: 60px;
+}
+
+.redesigned-all .p1 {
+    margin-top: 20px;
+    color: #696871;
+    line-height: 38px;
+}
+
+.redesigned-all .demos_button {
+    background-color: #F0544C;
 }
