@@ -130,7 +130,10 @@ nav .container {
     display: flex;
     color: blue;
     align-items: center;
-    margin-left: 10px;
+}
+
+.video-demos p {
+    margin-left: 20px;
 }
 
 .img-demos {
