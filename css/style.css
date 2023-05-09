@@ -84,6 +84,11 @@ nav .container {
     color: blue;
 }
 
+.link-get {
+    background-color: #F04037;
+    border: 2px solid #C31A12;
+}
+
 .drop_item {
     margin-top: -15px;
     position: absolute;
