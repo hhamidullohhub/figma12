@@ -21,6 +21,7 @@ body {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 nav {
@@ -94,7 +95,7 @@ nav .container {
 }
 
 .link-get:hover {
-    color: rgb(69, 66, 66);
+    color: rgb(209, 196, 196);
     background-color: rgb(211, 68, 68);
 }
 
@@ -172,4 +173,21 @@ nav .container {
     margin-left: 20px;
     color: white;
     margin: 20px 0;
+}
+
+.all-popular {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.all-popular p {
+    font-size: 12px;
+}
+
+.box-popular {
+    background-color: #EAE9F2;
+    width: 600px;
+    height: 2px;
+    margin-left: 30px;
 }
