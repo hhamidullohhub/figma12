@@ -35,12 +35,18 @@ nav .container {
 
 .dropdown {
     position: relative;
-}
-
-.dropdown-list {
-    position: absolute;
+    /* display: none; */
 }
 
 .dropdown-item {
-    /* position: absolute; */
+    display: none;
+}
+
+.dropdown-list:hover.dropdown-item {
+    display: block;
+}
+
+
+.dropdown-list {
+    position: absolute;
 }
