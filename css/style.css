@@ -13,10 +13,18 @@ ul,li {
     list-style: none;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+}
+
+nav {
+    background-color: #F2F2F2;;
 }
 
 nav .container {
@@ -41,30 +49,55 @@ nav .container {
 .dropdown_item {
     position: absolute;
     display: none;
-    border: 2px solid green;
+    border-top: 5px solid blue;
     text-align: center;
     border-radius: 8px;
-    background-color: green;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 30px;
+    font-size: 20px;
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
 }
 
 .dropdown:hover .dropdown_item {
     display: block;
 }
 
+.dropdown_lin {
+    margin-right: 2px;
+}
+
 .drop_link a{
     position: relative;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.drop_link:hover {
+    color: blue;
 }
 
 .drop_item {
     margin-top: -15px;
     position: absolute;
     display: none;
-    margin-left: -80px;
-    border: 2px solid red;
+    margin-left: -200px;
+    border-top: 8px solid red;
     padding: 5px 10px 10px 15px;
     text-align: center;
-    background-color: darkgray;
+    background-color: white;
     border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    line-height: 30px;
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
 }
 
 .drop_link {
@@ -77,4 +110,26 @@ nav .container {
 
 .drop:hover .drop_item {
     display: block;
+}
+
+.section-demos {
+    background-color:  #F2F2F2;
+    padding-top: 100px;
+}
+
+.all-demos {
+    display: flex;
+}
+
+.video-demos {
+    display: flex;
+    color: blue;
+}
+
+.img-demos {
+    width: 500px;
+}
+
+.redesigned-all h1 {
+    font-size: 80px;
 }
