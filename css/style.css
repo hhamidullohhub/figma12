@@ -37,10 +37,19 @@ nav .container {
     position: relative;
 }
 
+.dropdown:hover .dropdown_list {
+    display: block;
+}
+
 .dropdown:hover {
+    display: block;
+}
+
+.dropdown_link:hover {
     display: block;
 }
 
 .dropdown_list {
     position: absolute;
+    display: none;
 }
